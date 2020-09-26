@@ -11,16 +11,16 @@ header .logo {
     height: 100%;
     width: 50%;
 }
-div#api_status {
+#api_status {
     margin-right: 30px;
     margin-left: auto;
-    margin-top: auto;
-    marign-bottom: auto;
+    margin-top: 15px;
+    marign-bottom: 15px;
     border-radius: 50%;
     height: 40px;
     width: 40px;
     background: #CCCCCC;
 }
-.available {
+#api_status.available {
     background: #FF545F
 }
