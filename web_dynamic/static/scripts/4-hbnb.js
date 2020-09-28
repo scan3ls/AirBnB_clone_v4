@@ -65,7 +65,7 @@ $(document).ready(function () {
 
           const titleBox = $('<div/>', { class: 'title_box' });
           $('<h2/>', { text: value.name }).appendTo(titleBox);
-          $('<div/>', { class: 'price_by_night', text: value.price_by_night }).appendTo(titleBox);
+          $('<div/>', { class: 'price_by_night', text: `$${value.price_by_night}` }).appendTo(titleBox);
           titleBox.appendTo(article);
 
           const info = $('<div/>', { class: 'information' });
